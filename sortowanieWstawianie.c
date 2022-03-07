@@ -2,16 +2,16 @@
 
 void sortowanieWstawianie()
 {
-    int cyfry[] = {4, 8, 4, 3, 9, 0, 1, 6, 2, 8, 5, 7, 2, 7, 0};
-    insertionSort(cyfry);
-    for (int i = 0; i < (sizeof cyfry / sizeof(int)); i++)
+    int cyfry[] = {4, 8, 4, 3, 9, 0, 1, 6, 2, 8, 5, 7, 2, 7, 0};    /* tworzenie tablicy 15 - elementowej */
+    insertionSort(cyfry);   /* wywołanie funkcji insertionSort() */
+    for (int i = 0; i < (sizeof cyfry / sizeof(int)); i++) /* pętla wypisująca posortowane elementy tablicy */
     printf("%d ", cyfry[i]);
 }
 
-void insertionSort(int tab[])
+void insertionSort(int tab[])   /* deklaracja funkcji */
 
 {
-    int j, temp;
+    int j, temp;  
     for (int i = 1; i < 15; i++) {
         temp = tab[i];
         j = i - 1;
