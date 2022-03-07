@@ -12,13 +12,13 @@ void insertionSort(int tab[])   /* deklaracja funkcji */
 
 {
     int j, temp;  
-    for (int i = 1; i < 15; i++) {
-        temp = tab[i];
-        j = i - 1;
-        while (j >= 0 && tab[j] > temp){
-            tab[j + 1] = tab[j];
-            j--;
+    for (int i = 1; i < 15; i++) {  /* pętla sortująca każdy element po kolei od drugiego elementu */
+        temp = tab[i];  /* ustawienie tymczasowej zmiennej na wartość sprawdzanego argumentu */
+        j = i - 1; 
+        while (j >= 0 && tab[j] > temp){    /* pętla wykonująca instrukcje jeśli j wieksze lub równe 0 i element talicy z indeksem j wiekszy od tymczasowej zmiennej */
+            tab[j + 1] = tab[j];    /* zamiana sprawdzanego elementu tablicy z argumentem z prawej strony */
+            j--;    /* zmniejszenie j o 1 */
             }
-            tab[j + 1] = temp;
+            tab[j + 1] = temp; /* ustawienie elementu z prawej strony na zmienną tymczasową */
         }
 }
