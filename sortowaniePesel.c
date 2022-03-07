@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void sortowaniePesel()
+void mainl()
 {
     int pesel[] = {0, 2, 2, 3, 1, 9, 4, 3, 8, 7, 5};    /* utworzenie tablicy  z numerem pesel */
     selectionSort(pesel);   /* wywołanie funkcji selectionSort() */
