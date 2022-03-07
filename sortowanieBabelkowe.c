@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+void sortowanieBabelkowe()
 {
     int cyfry[] = {6, 7, 2, 9, 0, 2, 5, 8, 1, 6, 9, 4, 5, 6, 3};
     bubbleSort(cyfry);
