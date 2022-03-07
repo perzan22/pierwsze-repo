@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void sortowanieWstawianie()
+void main()
 {
     int cyfry[] = {4, 8, 4, 3, 9, 0, 1, 6, 2, 8, 5, 7, 2, 7, 0};    /* tworzenie tablicy 15 - elementowej */
     insertionSort(cyfry);   /* wywołanie funkcji insertionSort() */
