@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void sortowanie_wstawianie()
+void sortowanieWstawianie()
 {
     int cyfry[] = {4, 8, 4, 3, 9, 0, 1, 6, 2, 8, 5, 7, 2, 7, 0};
     insertionSort(cyfry);
