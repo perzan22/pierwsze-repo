@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int top = -1;   // deklaracja globalnej zmiennej top, przechowujaca indeks ostatniego elementu stosu
-int *stack;     // stworzenie wskaxnika na stos
+int *stack;     // stworzenie wskaznika na stos
 
 void stack_empty(int top) {     // deklaracja funkcji stack_empty, ktora sprawdza czy stos jest pusty
     if (top == -1) {    // jesli stos jest pust to wyswietla "Stos pusty"
